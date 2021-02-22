@@ -7,7 +7,7 @@ Create a SSH connection to a server without need to enter password 2021
 --> ssh-keygen -t rsa
 
 2. Transfer public SSH key
---> scp ~/.ssh/id_rsa.pub root@<Server-IP>:~/.ssh/authorized_keys 
+--> scp ~/.ssh/id_rsa.pub root@<Server-IP>:\~/.ssh/authorized_keys 
 --> <Enter Server Password>
   
 3. Connect to the server using SSH connection
